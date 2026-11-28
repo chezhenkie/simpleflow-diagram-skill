@@ -10,6 +10,7 @@
 
 * A theme or mode change rewrites the current history entry with the mode and both theme names, so browser Back and a reload keep the pick. The entry keeps the arrival marker. No storage is used.
 * The published docs explain how the back button decides its state: the Navigation API, the arrival marker and the limits of `history.length`.
+* The harbor card fill moves to petrol `#143231`, which sits with the navy page. Card ink reads 8.29:1 and muted text 4.82:1 on it; the other harbor tokens stay.
 
 ## 1.6.1
 
