@@ -109,13 +109,13 @@ footer { margin-top: 34px; padding-top: 16px; border-top: 1px solid var(--line);
 <body>
 <div class="wrap">
 <header>
-  <p class="kicker">simpleflow-diagram-skill / palette 1.4.0</p>
+  <p class="kicker">simpleflow-diagram-skill / palette 1.4.0 / harbor card</p>
   <h1>color vision audit comparison</h1>
-  <p class="lede">The 1.4.0 palette raises the weak borders and accents. Every pair was checked for color-vision impaired readers, under simulated protanopia, deuteranopia, tritanopia and achromatopsia, using the Machado 2009 matrices and WCAG 2.2 floors of 4.5:1 for text and 3:1 for marks. Four mark pairs keep a small shortfall under deuteranopia and are accepted deviations. Each theme is rendered with its own tokens; the table gives the worst case.</p>
-  <ul class="chips"><li>8 themes changed</li><li>11 token changes</li><li>1 unchanged</li><li>4 accepted shortfalls</li></ul>
-  <p class="note">Scope: accent and line only. Text ink and muted values are unchanged, so the audit's text shortfalls in the four light themes remain. The accepted shortfalls are vercel accent on page 2.91, tokyonight accent on card 2.97, tokyonight checked label 4.31 and orng checked label 4.00. The sample is a mini page: bar button, title outline, normal card, focus card, the two connector styles and the checked menu row.</p>
+  <p class="lede">The 1.4.0 palette raises the weak borders and accents. Every pair was checked for color-vision impaired readers, under simulated protanopia, deuteranopia, tritanopia and achromatopsia, using the Machado 2009 matrices and WCAG 2.2 floors of 4.5:1 for text and 3:1 for marks. Five mark pairs keep a small shortfall and are accepted deviations. Each theme is rendered with its own tokens; the table gives the worst case.</p>
+  <ul class="chips"><li>8 themes changed</li><li>11 token changes</li><li>1 unchanged</li><li>5 accepted shortfalls</li></ul>
+  <p class="note">Scope: accent, line and the harbor card. Text ink and muted values are unchanged, so the audit's text shortfalls in the four light themes remain. The accepted shortfalls are vercel accent on page 2.91, tokyonight accent on card 2.97, tokyonight checked label 4.31, orng checked label 4.00 and harbor line on card 2.89. The sample is a mini page: bar button, title outline, normal card, focus card, the two connector styles and the checked menu row.</p>
 </header>
-<p class="flag">Amber *: only 4 of 45 checked pairs remain under the floor; 2 are unchanged, 2 are halfway to compliance, so the impact on color-vision impaired readability is minor. They stay because raising them would drift the colors too far outside their fixed schemes and disrupt the overall color balance of the theme.</p>
+<p class="flag">Amber *: only 5 of 45 checked pairs remain under the floor, so the impact on color-vision impaired readability is minor. They stay because raising them would drift the colors too far outside their fixed schemes and disrupt the overall color balance of the theme.</p>
 <section class="theme" id="github">
   <div class="theme-head"><h2>github</h2><span class="tag">dark</span><span class="tag changed">accent + line</span></div>
   <div class="tokens"><span class="tok"><i class="sw" style="background:#2971E1"></i>accent <code>#2971E1</code> <span class="to">to</span> <i class="sw" style="background:#3B82F6"></i><code>#3B82F6</code></span><span class="tok"><i class="sw" style="background:#30363D"></i>line <code>#30363D</code> <span class="to">to</span> <i class="sw" style="background:#6E7681"></i><code>#6E7681</code></span><span class="tok">label ink <code>#FFFFFF</code> <span class="to">to</span> <code>#000000</code></span></div>
@@ -153,10 +153,10 @@ footer { margin-top: 34px; padding-top: 16px; border-top: 1px solid var(--line);
   </table>
 </section><section class="theme" id="harbor">
   <div class="theme-head"><h2>harbor</h2><span class="tag">dark</span><span class="tag changed">line</span></div>
-  <div class="tokens"><span class="tok"><i class="sw" style="background:#4FD1C5"></i>accent <code>#4FD1C5</code> kept</span><span class="tok"><i class="sw" style="background:#424242"></i>line <code>#424242</code> <span class="to">to</span> <i class="sw" style="background:#737373"></i><code>#737373</code></span><span class="tok">label ink <code>#000000</code></span></div>
+  <div class="tokens"><span class="tok"><i class="sw" style="background:#4FD1C5"></i>accent <code>#4FD1C5</code> kept</span><span class="tok"><i class="sw" style="background:#424242"></i>line <code>#424242</code> <span class="to">to</span> <i class="sw" style="background:#737373"></i><code>#737373</code></span><span class="tok"><i class="sw" style="background:#143231"></i>card <code>#143231</code></span><span class="tok">label ink <code>#000000</code></span></div>
   <div class="samples"><div class="sample-wrap">
   <div class="sample-cap">Current</div>
-  <div class="sample" style="--s-bg:#0F1A2B;--s-card:#212121;--s-ink:#C9C9C9;--s-muted:#999999;--s-line:#424242;--s-accent:#4FD1C5;--s-pick:#000000">
+  <div class="sample" style="--s-bg:#0F1A2B;--s-card:#143231;--s-ink:#C9C9C9;--s-muted:#999999;--s-line:#424242;--s-accent:#4FD1C5;--s-pick:#000000">
     <div class="s-bar"><span class="s-print">print</span><span class="s-btn">themes</span></div>
     <div class="s-title">Payment</div>
     <div class="s-card s-normal"><b>Request</b><span>sent to the issuer</span></div>
@@ -166,7 +166,7 @@ footer { margin-top: 34px; padding-top: 16px; border-top: 1px solid var(--line);
   </div>
 </div><div class="sample-wrap">
   <div class="sample-cap">Proposed</div>
-  <div class="sample" style="--s-bg:#0F1A2B;--s-card:#212121;--s-ink:#C9C9C9;--s-muted:#999999;--s-line:#737373;--s-accent:#4FD1C5;--s-pick:#000000">
+  <div class="sample" style="--s-bg:#0F1A2B;--s-card:#143231;--s-ink:#C9C9C9;--s-muted:#999999;--s-line:#737373;--s-accent:#4FD1C5;--s-pick:#000000">
     <div class="s-bar"><span class="s-print">print</span><span class="s-btn">themes</span></div>
     <div class="s-title">Payment</div>
     <div class="s-card s-normal"><b>Request</b><span>sent to the issuer</span></div>
@@ -180,9 +180,9 @@ footer { margin-top: 34px; padding-top: 16px; border-top: 1px solid var(--line);
     <thead><tr><th>Pair</th><th>Current</th><th>Proposed</th><th>Floor</th></tr></thead>
     <tbody>
       <tr><td>Accent on page</td><td class="">8.86</td><td class="ok">8.86</td><td>3:1</td></tr>
-      <tr><td>Accent on card</td><td class="">8.10</td><td class="ok">8.10</td><td>3:1</td></tr>
+      <tr><td>Accent on card</td><td class="">7.36</td><td class="ok">7.36</td><td>3:1</td></tr>
       <tr><td>Checked label</td><td class="">10.56</td><td class="ok">10.56</td><td>4.5:1</td></tr>
-      <tr><td>Line on card</td><td class="bad">1.60</td><td class="ok">3.40</td><td>3:1</td></tr>
+      <tr><td>Line on card</td><td class="bad">1.37</td><td class="warn">2.89 *</td><td>3:1</td></tr>
       <tr><td>Line on page</td><td class="bad">1.71</td><td class="ok">3.62</td><td>3:1</td></tr>
     </tbody>
   </table>
